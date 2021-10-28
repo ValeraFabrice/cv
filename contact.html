@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <figure>
+          <!--Ceci est image-->
+          <img src="https://picsum.photos/1600/300" alt="Photo deco">
+          <!-- <figcaption>Superbe photo</figcaption>-->
+        </figure>
+        <nav>
+          <ul class="nav-header">
+            <li><a href="#apropos" title="A propos">A propos</a></li>
+            <li><a href="#competences" title="Mes compétences">Compétences</a></li>
+            <li><a href="#exp" title="Expériences professionnelles">Expérience</a></li>
+            <li><a href="#formation" title="Formation">Formation</a></li>
+            <li><a href="contact.html" title="Contactez-moi">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Contact</h1>
+      </header>
+
+      <form action="" method="get">
+        <fieldset>
+            <div>
+                <label for="username">Nom :</label>
+                <input type="text" name="username" id="username" placeholder="Votre nom" required>
+              </div>
+
+              <div>
+                <label for="firstname">Prénom:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Votre prenom" required>
+              </div>
+        </fieldset>   
+
+        <fieldset>
+            <div>
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel" id="tel" placeholder="Votre telephone" required>
+              </div>
+
+            <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Votre Email" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+            <select name="poste" id="poste">
+                <option value="cdi">CDI</option>
+                <option value="interim">Interim</option>
+                <option value="freelance">Freelance</option>
+            </select>
+        </fieldset>
+
+        <input role="button" type="button" name="submit" value="Submit">
+        <button type="reset">Annuler</button>
+   
+      </form>
+  
+</body>
+</html>
